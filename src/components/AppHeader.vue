@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h1>ciao</h1>
+    <h1>ciao ciao</h1>
 
 </template>
 
