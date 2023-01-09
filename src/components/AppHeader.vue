@@ -67,6 +67,7 @@ export default {
 
         li {
             padding-left: .8rem;
+
         }
     }
 }
