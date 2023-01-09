@@ -44,7 +44,7 @@ export default {
     <div class="header_wrapper">
         <img src="../assets/img/dc-logo.png" alt="">
         <ul>
-            <li v-for="link in headerNavList">{{ link.text }}</li>
+            <li v-for="link in headerNavList"><a href="#">{{ link.text }}</a></li>
         </ul>
     </div>
 
@@ -56,6 +56,8 @@ export default {
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
+    width: 80%;
+    margin: auto;
 
     img {
         max-width: 100%;
@@ -67,6 +69,10 @@ export default {
 
         li {
             padding-left: .8rem;
+
+            a {
+                text-decoration: none;
+            }
 
         }
     }
