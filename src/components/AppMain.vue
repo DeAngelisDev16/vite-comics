@@ -26,10 +26,11 @@ div {
 
     width: 60%;
     margin: auto;
+    padding: 1rem;
 
     h2 {
         color: white;
-        padding: 3rem;
+        padding: 2rem;
 
 
     }
