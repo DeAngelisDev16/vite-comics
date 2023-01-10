@@ -21,16 +21,21 @@ export default {
 
 
 <template>
+
+
+
+
+
     <div class="comics-elements">
-        <!-- {{ imagePath }} -- {{ comicsPrice }} -- {{ comicsSeries }} -- {{ comicsType }} -->
         <img :src="imagePath" alt="image path">
         <h3>{{ comicsSeries }}</h3>
+        <div class="price">{{ comicsPrice }}</div>
     </div>
 
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .comics-elements {
     color: white;
     width: calc(100% / 6);
@@ -39,6 +44,10 @@ export default {
 
     img {
         width: 100%;
+    }
+
+    .price {
+        font-size: 12px;
     }
 
 }

@@ -91,8 +91,10 @@ export default {
 
 <template>
     <div>
+        <div class="jumbo"></div>
         <div class="main_wrapper">
             <h2>Content goes here</h2>
+
             <div class="products">
                 <ComicElements v-for="comics in comicsList" :imagePath="comics.thumb" :comicsPrice="comics.price"
                     :comicsSeries="comics.series" :comicsType="comics.type" />
@@ -110,11 +112,20 @@ div {
     background-color: #1C1C1C;
 }
 
+.jumbo {
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
 .main_wrapper {
 
     width: 80%;
     margin: auto;
     padding: 1rem;
+
+
+
 
     h2 {
         color: white;

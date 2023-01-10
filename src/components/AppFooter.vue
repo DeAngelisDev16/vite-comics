@@ -97,8 +97,10 @@ export default {
 
 
     h2 {
-        margin-left: 2rem;
+        margin: .5rem 2rem;
         color: white;
+        padding-top: .5rem;
+
     }
 
     ul {
