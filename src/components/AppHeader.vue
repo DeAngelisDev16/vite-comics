@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 .header_wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
     width: 80%;

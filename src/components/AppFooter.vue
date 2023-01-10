@@ -9,7 +9,7 @@ export default {
 <template>
     <div class="upper_footer">
         <div class="list_wrapper">
-            <div class="List-one">
+            <div class="List one">
                 <h2>DC COMICS</h2>
                 <ul>
                     <li><a href="#">Characters</a></li>
@@ -28,7 +28,7 @@ export default {
                 </ul>
 
             </div>
-            <div class="list-two">
+            <div class="list two">
                 <h2>DC</h2>
                 <ul>
                     <li><a href="#">Terms of use</a></li>
@@ -45,7 +45,7 @@ export default {
 
                 </ul>
             </div>
-            <div class="list-three">
+            <div class="list three">
                 <h2>SITES</h2>
                 <ul>
                     <li><a href="#">DC</a></li>
@@ -76,27 +76,27 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.upper_footer,
-.lower_footer {
-    height: 30vh;
-}
-
 .upper_footer {
-    background-color: aqua;
+    background-image: url('../assets/img/footer-bg.jpg');
 }
 
 .lower_footer {
-    background-color: burlywood;
+    background-color: #303030;
+    height: 20vh;
 }
 
 .list_wrapper {
     width: 80%;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem 0;
+
     display: flex;
+
+
 
     h2 {
         margin-left: 2rem;
+        color: white;
     }
 
     ul {
@@ -105,8 +105,10 @@ export default {
 
         a {
             text-decoration: none;
+            color: #786144;
         }
     }
+
 
 }
 </style>
