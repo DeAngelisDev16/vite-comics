@@ -31,5 +31,8 @@ export default {
 <style lang="scss" scoped>
 .comics-elements {
     color: white;
+    border: 2px solid white;
+    width: calc(100% / 6);
+
 }
 </style>

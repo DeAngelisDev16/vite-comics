@@ -93,8 +93,11 @@ export default {
     <div>
         <div class="main_wrapper">
             <h2>Content goes here</h2>
-            <ComicElements v-for="comics in comicsList" :imagePath="comics.thumb" :comicsPrice="comics.price"
-                :comicsSeries="comics.series" :comicsType="comics.type" />
+            <div class="products">
+                <ComicElements v-for="comics in comicsList" :imagePath="comics.thumb" :comicsPrice="comics.price"
+                    :comicsSeries="comics.series" :comicsType="comics.type" />
+
+            </div>
 
         </div>
     </div>
@@ -116,8 +119,15 @@ div {
     h2 {
         color: white;
         padding: 2rem;
-
-
     }
+
+    .products {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
 }
 </style>
