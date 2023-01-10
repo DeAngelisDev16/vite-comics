@@ -112,7 +112,7 @@ div {
 
 .main_wrapper {
 
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 1rem;
 
