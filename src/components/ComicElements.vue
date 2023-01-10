@@ -15,16 +15,21 @@ export default {
 
 
 }
-
-
-
 </script>
 
+
+
+
 <template>
+    <div class="comics-elements">
+        {{ imagePath }} -- {{ comicsPrice }} -- {{ comicsSeries }} -- {{ comicsType }}
+    </div>
 
 
 </template>
 
 <style lang="scss" scoped>
-
+.comics-elements {
+    color: white;
+}
 </style>

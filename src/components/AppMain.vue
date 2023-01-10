@@ -93,7 +93,8 @@ export default {
     <div>
         <div class="main_wrapper">
             <h2>Content goes here</h2>
-            <ComicElements />
+            <ComicElements v-for="comics in comicsList" :imagePath="comics.thumb" :comicsPrice="comics.price"
+                :comicsSeries="comics.series" :comicsType="comics.type" />
 
         </div>
     </div>
