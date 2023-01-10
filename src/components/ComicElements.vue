@@ -4,10 +4,15 @@
 
 export default {
     name: 'ComicElements',
-    props: {
+    props: [
+        'imagePath',
+        'comicsPrice',
+        'comicsSeries',
+        'comicsType'
+    ]
 
 
-    }
+
 
 }
 
