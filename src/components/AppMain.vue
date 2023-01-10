@@ -1,7 +1,10 @@
 <script>
+import ComicElements from './ComicElements.vue';
 export default {
-    name: Appmain,
-    components: {},
+    name: 'Appmain',
+    components: {
+        ComicElements,
+    },
     data() {
         return {
             comicsList: [
@@ -90,6 +93,7 @@ export default {
     <div>
         <div class="main_wrapper">
             <h2>Content goes here</h2>
+            <ComicElements />
 
         </div>
     </div>
