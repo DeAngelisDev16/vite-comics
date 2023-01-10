@@ -72,6 +72,8 @@ export default {
 
             a {
                 text-decoration: none;
+                color: #303030;
+                text-transform: uppercase;
             }
 
         }

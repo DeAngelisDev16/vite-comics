@@ -78,6 +78,7 @@ export default {
 <style lang="scss" scoped>
 .upper_footer {
     background-image: url('../assets/img/footer-bg.jpg');
+
 }
 
 .lower_footer {
