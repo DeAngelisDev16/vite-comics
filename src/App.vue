@@ -26,4 +26,5 @@ export default {
 <style lang="scss">
 @use './styles/general.scss' as *;
 @use './styles/partials/variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 </style>
